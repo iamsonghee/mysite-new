@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+@import "reset.css";
+@import "main.css";
+@import "bar.css";
+@import "component.css";
+@import "contact.css";
+body {
+  font-family: "Yeon Sung", cursive;
+  height: 200vh;
+}
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.bottom {
+  background-color: black;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bottom div {
+  color: white;
+}
+
+.bottom__link i {
+  margin: 0px 5px;
+}

@@ -1,0 +1,25 @@
+.contact-header {
+  display: flex;
+  font-size: 45px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.contact-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-input input {
+  margin: 5px;
+  padding: 10px 5px;
+}
+
+.contact-input input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
